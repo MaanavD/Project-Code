@@ -1,0 +1,40 @@
+:root {
+    --nav: #373f51;
+    --cyan: #78CBC9;
+    --yellow: #FFC857;
+    --red: #B76D68;
+    --white: #EEEEFF;
+}
+html{
+    font: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    background-color: var(--white);
+}
+.nav-color{
+    background-color:var(--nav) !important;
+}
+
+.logo-color{
+color: var(--white);
+}
+
+.road-color{
+    color: var(--cyan);
+}
+.roadtext-color:hover{
+    color: var(--cyan) !important;
+}
+
+.interview-color{
+color: var(--yellow);
+}
+.interviewtext-color:hover{
+    color: var(--yellow) !important;
+}
+
+.challenges-color{
+    color: var(--red);
+}
+.challengestext-color:hover{
+    color: var(--red) !important;
+}
+
